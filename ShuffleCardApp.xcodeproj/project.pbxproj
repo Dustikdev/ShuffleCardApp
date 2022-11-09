@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		79DA4905291BD3A800A43627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA4904291BD3A800A43627 /* AppDelegate.swift */; };
 		79DA4907291BD3A800A43627 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA4906291BD3A800A43627 /* SceneDelegate.swift */; };
-		79DA4909291BD3A800A43627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA4908291BD3A800A43627 /* ViewController.swift */; };
+		79DA4909291BD3A800A43627 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA4908291BD3A800A43627 /* CardSelectionVC.swift */; };
 		79DA490C291BD3A800A43627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DA490A291BD3A800A43627 /* Main.storyboard */; };
 		79DA490E291BD3AA00A43627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DA490D291BD3AA00A43627 /* Assets.xcassets */; };
 		79DA4911291BD3AA00A43627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DA490F291BD3AA00A43627 /* LaunchScreen.storyboard */; };
+		79DA4919291BE7E200A43627 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA4918291BE7E200A43627 /* RulesVC.swift */; };
+		79DA491B291C02B100A43627 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA491A291C02B100A43627 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		79DA4901291BD3A800A43627 /* ShuffleCardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuffleCardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DA4904291BD3A800A43627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79DA4906291BD3A800A43627 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79DA4908291BD3A800A43627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79DA4908291BD3A800A43627 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
 		79DA490B291BD3A800A43627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79DA490D291BD3AA00A43627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79DA4910291BD3AA00A43627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79DA4912291BD3AA00A43627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DA4918291BE7E200A43627 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
+		79DA491A291C02B100A43627 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		79DA4903291BD3A800A43627 /* ShuffleCardApp */ = {
 			isa = PBXGroup;
 			children = (
+				79DA491A291C02B100A43627 /* Deck.swift */,
 				79DA4904291BD3A800A43627 /* AppDelegate.swift */,
 				79DA4906291BD3A800A43627 /* SceneDelegate.swift */,
-				79DA4908291BD3A800A43627 /* ViewController.swift */,
+				79DA4918291BE7E200A43627 /* RulesVC.swift */,
+				79DA4908291BD3A800A43627 /* CardSelectionVC.swift */,
 				79DA490A291BD3A800A43627 /* Main.storyboard */,
 				79DA490D291BD3AA00A43627 /* Assets.xcassets */,
 				79DA490F291BD3AA00A43627 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79DA4909291BD3A800A43627 /* ViewController.swift in Sources */,
+				79DA4919291BE7E200A43627 /* RulesVC.swift in Sources */,
+				79DA4909291BD3A800A43627 /* CardSelectionVC.swift in Sources */,
+				79DA491B291C02B100A43627 /* Deck.swift in Sources */,
 				79DA4905291BD3A800A43627 /* AppDelegate.swift in Sources */,
 				79DA4907291BD3A800A43627 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,8 +301,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,8 +329,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
